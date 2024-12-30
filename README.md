@@ -31,4 +31,4 @@ Below are examples of visualizations created during this project. These visualiz
 
 **Example 3:** Top 20 Sales Figures Worldwide Bar chart <img width="1312" alt="Bar chart with Top 20 Sales Figures Worldwide" src="https://github.com/user-attachments/assets/68c06be6-8990-4841-8271-1ca51fe10fc8" />
 
-You can view these visualizations interactively on my Tableau portfolio: [Rockbuster Visualizations on Tableau] (https://public.tableau.com/views/Rockbustervisualizations_17309752072750/top10_films_most_revenue?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+You can view these visualizations interactively on my Tableau portfolio: [Rockbuster Visualizations on Tableau](https://public.tableau.com/views/Rockbustervisualizations_17309752072750/top10_films_most_revenue?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
