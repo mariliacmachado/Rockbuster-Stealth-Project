@@ -5,30 +5,31 @@
 ## Project Summary
 This project was completed as part of the CareerFoundry Data Analytics Program and showcases the use of SQL for business data analysis. The analysis supported the launch strategy for Rockbuster Stealth's online video rental service by extracting actionable insights from a relational database. Deliverables included SQL scripts, visualizations, and recommendations to guide the management team's strategic decisions.
 
-### Objectives
+## Objectives
 - Evaluate movie revenue contributions to identify high- and low-performing titles.
 - Determine average rental durations to optimize inventory management.
 - Analyze the geographic distribution of customers and locate high-value segments.
 - Compare sales performance across different regions to uncover trends.
 
-### Skills Demonstrated
+## Skills Demonstrated
 - Writing complex SQL queries for data extraction and analysis.
 - Performing data cleaning, summarization, and transformation within a relational database.
 - Creating clear and compelling visualizations to communicate findings.
 - Presenting actionable insights to both technical and non-technical stakeholders.
 
-### Key Deliverables
+## Key Deliverables
 - SQL scripts answering critical business questions.
 - Data visualizations summarizing customer behavior and sales trends.
 - A comprehensive report with strategic recommendations for the management board.
 
-### Data Visualizations
+## Data Visualizations
 Below are examples of visualizations created during this project. These visualizations were designed to summarize customer demographics, sales trends, and regional insights for the management team.
 
-**Example 1:** Top 10 Films with the Most Revenue <img width="1789" alt="Screenshot 2024-12-30 at 14 50 27" src="https://github.com/user-attachments/assets/f16c9070-4c8e-4fcf-9b19-55165ad1b987" />
+**Example 1:** Top 10 Films with the Most Revenue Treemap <img width="1789" alt="Treemap with Top 10 Films with the Most Revenue" src="https://github.com/user-attachments/assets/f16c9070-4c8e-4fcf-9b19-55165ad1b987" />
 
-**Example 2:** Top and bottom revenue-generating movies by genre.<img width="1763" alt="Screenshot 2024-12-30 at 15 29 40" src="https://github.com/user-attachments/assets/c1b5be77-e8f1-406c-835d-5e55455f55a7" />
+**Example 2:** Top 10 Sales Figures and Number of Customers Worldwide Map <img width="1763" alt="Map with Top 10 Sales Figures and Number of Customers Worldwide" src="https://github.com/user-attachments/assets/c1b5be77-e8f1-406c-835d-5e55455f55a7" />
 
-**Example 3:** Average rental duration across all regions.<img width="1312" alt="Screenshot 2024-12-30 at 15 29 56" src="https://github.com/user-attachments/assets/68c06be6-8990-4841-8271-1ca51fe10fc8" />
+**Example 3:** Top 20 Sales Figures Worldwide Bar chart <img width="1312" alt="Bar chart with Top 20 Sales Figures Worldwide" src="https://github.com/user-attachments/assets/68c06be6-8990-4841-8271-1ca51fe10fc8" />
 
 You can view these visualizations interactively on my Tableau portfolio: Rockbuster Visualizations on Tableau.
+<div class='tableauPlaceholder' id='viz1735573170837' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HP&#47;HP57657QR&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;HP57657QR' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HP&#47;HP57657QR&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1735573170837');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
