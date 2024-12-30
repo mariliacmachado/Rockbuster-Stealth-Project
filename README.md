@@ -1,5 +1,6 @@
 # Rockbuster Stealth Data Analysis Project
-![Career Foundry logo](https://drive.google.com/file/d/1LfddP0dbo0FOPpaQn0-QxHmdrrvDJ3ZG/view?usp=sharing)
+![CareerFoundry-fulllogo-white](https://github.com/user-attachments/assets/49321ef4-35e4-4eb1-a028-c8254a346e55)
+
 
 ## Project Summary
 This project was completed as part of the CareerFoundry Data Analytics Program and showcases the use of SQL for business data analysis. The analysis supported the launch strategy for Rockbuster Stealth's online video rental service by extracting actionable insights from a relational database. Deliverables included SQL scripts, visualizations, and recommendations to guide the management team's strategic decisions.
