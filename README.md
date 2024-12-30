@@ -25,10 +25,13 @@ This project was completed as part of the CareerFoundry Data Analytics Program a
 ## Data Visualizations
 Below are examples of visualizations created during this project. These visualizations were designed to summarize customer demographics, sales trends, and regional insights for the management team.
 
-**Example 1:** Top 10 Films with the Most Revenue Treemap <img width="1789" alt="Treemap with Top 10 Films with the Most Revenue" src="https://github.com/user-attachments/assets/f16c9070-4c8e-4fcf-9b19-55165ad1b987" />
+### Example 1: Top 10 Films with the Most Revenue Treemap
+<img width="1789" alt="Treemap with Top 10 Films with the Most Revenue" src="https://github.com/user-attachments/assets/f16c9070-4c8e-4fcf-9b19-55165ad1b987" />
 
-**Example 2:** Top 10 Sales Figures and Number of Customers Worldwide Map <img width="1763" alt="Map with Top 10 Sales Figures and Number of Customers Worldwide" src="https://github.com/user-attachments/assets/c1b5be77-e8f1-406c-835d-5e55455f55a7" />
+### Example 2: Top 10 Sales Figures and Number of Customers Worldwide Map
+<img width="1763" alt="Map with Top 10 Sales Figures and Number of Customers Worldwide" src="https://github.com/user-attachments/assets/c1b5be77-e8f1-406c-835d-5e55455f55a7" />
 
-**Example 3:** Top 20 Sales Figures Worldwide Bar chart <img width="1312" alt="Bar chart with Top 20 Sales Figures Worldwide" src="https://github.com/user-attachments/assets/68c06be6-8990-4841-8271-1ca51fe10fc8" />
+### Example 3: Top 20 Sales Figures Worldwide Bar chart
+<img width="1312" alt="Bar chart with Top 20 Sales Figures Worldwide" src="https://github.com/user-attachments/assets/68c06be6-8990-4841-8271-1ca51fe10fc8" />
 
 You can view these visualizations interactively on my Tableau portfolio: [Rockbuster Visualizations on Tableau](https://public.tableau.com/views/Rockbustervisualizations_17309752072750/top10_films_most_revenue?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
