@@ -22,6 +22,19 @@ This project was completed as part of the CareerFoundry Data Analytics Program a
 - Data visualizations summarizing customer behavior and sales trends.
 - A comprehensive report with strategic recommendations for the management board.
 
+## Tools and Systems Used
+- **Database Management System:** PostgreSQL
+- **Query Language:** SQL
+- **Visualization Tools:** Tableau
+  
+## Dataset Information
+- **Source:** A fabricated dataset provided as part of the CareerFoundry course material. It simulates data for Rockbuster Stealth’s inventory, customer base, and payments.
+- **Contents:** The dataset contains multiple related tables with information on movies, customers, rentals, and payments.
+- **Data Size:** Approximately 3MB, consisting of several relational tables.
+
+### Disclaimer
+The dataset used in this project is not from a real company but was created for educational purposes as part of the CareerFoundry Data Analytics Program. The analysis and findings should not be considered representative of any real-world entity.
+
 ## Data Visualizations
 Below are examples of visualizations created during this project. These visualizations were designed to summarize customer demographics, sales trends, and regional insights for the management team.
 
