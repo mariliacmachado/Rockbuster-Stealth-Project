@@ -1,0 +1,79 @@
+I performed the following SQL CTEs in order to find the average amount paid by the top 5 customers and how many are based within each country.
+
+WITH top_10_countries AS
+(SELECT
+A.customer_id,
+A.first_name,
+A.last_name,
+D.country,
+C.city,
+SUM(E.amount) AS total_spent
+FROM customer A
+INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+INNER JOIN payment E ON A.customer_id = E.customer_id
+WHERE C.city IN (SELECT top_10_cities FROM top_5_customers_list)
+GROUP BY
+A.customer_id,
+A.first_name,
+A.last_name,
+D.country,
+C.city),
+top_5_customers AS
+(SELECT
+customer_id,
+first_name,
+last_name,
+country,
+city,
+total_spent
+FROM top_10_countries
+ORDER BY total_spent DESC
+LIMIT 5)
+SELECT AVG(total_spent) AS average
+FROM top_5_customers;
+
+---
+
+WITH top_10_countries AS
+(SELECT
+A.customer_id,
+A.first_name,
+A.last_name,
+D.country,
+C.city,
+SUM(E.amount) AS total_spent
+FROM customer A
+INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+INNER JOIN payment E ON A.customer_id = E.customer_id
+WHERE C.city IN (SELECT top_10_cities FROM top_5_customers_list)
+GROUP BY
+A.customer_id,
+A.first_name,
+A.last_name,
+D.country,
+C.city),
+top_5_customers AS
+(SELECT
+customer_id,
+country,
+city,
+total_spent
+FROM top_10_countries
+ORDER BY total_spent DESC
+LIMIT 5)
+SELECT
+E.country,
+COUNT(DISTINCT B.customer_id) AS all_customer_count,
+COUNT(DISTINCT top5.customer_id) AS top_customer_count
+FROM customer B
+JOIN address C ON B.address_id = C.address_id
+JOIN city D ON C.city_id = D.city_id
+JOIN country E ON D.country_id = E.country_id
+LEFT JOIN top_5_customers AS Top5 ON B.customer_id = top5.customer_id
+GROUP BY E.country
+ORDER BY all_customer_count DESC
+LIMIT 10;
