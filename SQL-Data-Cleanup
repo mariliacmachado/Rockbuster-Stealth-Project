@@ -1,0 +1,29 @@
+In this specific project, I checked for duplicates using these SQL queries:
+SELECT title, release_year, language_id, rental_duration,
+COUNT (*)
+FROM film
+GROUP BY title, release_year, language_id, rental_duration
+HAVING COUNT(*) >1;
+
+SELECT email, first_name, last_name, create_date,
+COUNT(*)
+FROM customer
+GROUP BY email, first_name, last_name, create_date
+HAVING COUNT(*) >1;
+
+There were no duplicates, but if there were, I would perform the following queries to clean the tables:
+
+CREATE VIEW film_unique_records_view AS
+SELECT * FROM film
+CREATE VIEW customer_unique_records_view AS
+SELECT * FROM customer
+
+DELETE FROM film
+WHERE film_id NOT IN (SELECT MIN(film_id)
+FROM film
+GROUP BY rental_duration, language_id, title, release_year)
+
+DELETE FROM customer
+WHERE customer_id NOT IN (SELECT MIN(customer_id)
+FROM customer
+GROUP BY email, first_name, last_name, create_date)
