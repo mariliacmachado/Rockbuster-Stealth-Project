@@ -1,4 +1,4 @@
-This is a SQL query to obtain a data profiling of the film table (mininum, maximum, average, count, mode)-
+This is an SQL query used to obtain data profiling of the film table (minimum, maximum, average, count, mode).
 
 SELECT MODE() WITHIN GROUP (ORDER BY title) AS modal_value_title,				
 MIN (rental_rate) AS min_rental_rate,				
