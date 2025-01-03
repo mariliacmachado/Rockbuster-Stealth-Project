@@ -1,0 +1,11 @@
+This is an SQL query to identify the top 10 films with the most revenue.
+
+SELECT title AS film_name, SUM(amount) AS revenue
+FROM film A
+INNER JOIN inventory B ON A.film_id = B.film_id
+INNER JOIN rental C ON B.inventory_id = C.inventory_id
+INNER JOIN customer D ON D.customer_id = C.customer_id
+INNER JOIN payment E ON E.customer_id = D.customer_id
+GROUP BY title
+ORDER BY SUM(amount) DESC
+LIMIT 10;
