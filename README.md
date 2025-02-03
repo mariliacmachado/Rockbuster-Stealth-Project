@@ -3,7 +3,7 @@
 
 
 ## Project Summary
-This project was completed as part of the CareerFoundry Data Analytics Program and showcases the use of SQL for business data analysis. The analysis supported the launch strategy for Rockbuster Stealth's online video rental service by extracting actionable insights from a relational database. Deliverables included SQL scripts, visualizations, and recommendations to guide the management team's strategic decisions.
+This project showcases the use of SQL for business data analysis. The analysis supported the launch strategy for Rockbuster Stealth's online video rental service by extracting actionable insights from a relational database. Deliverables included SQL scripts, visualizations, and recommendations to guide the management team's strategic decisions.
 
 ## Objectives
 - Evaluate movie revenue contributions to identify high- and low-performing titles.
